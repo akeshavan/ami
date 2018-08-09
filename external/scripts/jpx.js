@@ -19,7 +19,7 @@
            info, warn */
 
 'use strict';
-
+var PDFJS = {};
 var JpxImage = (function JpxImageClosure() {
   // Table E.1
   var SubbandsGainLog2 = {
