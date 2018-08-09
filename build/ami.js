@@ -1154,7 +1154,7 @@ if ((moduleType !== 'undefined') && module.exports) {
            info, warn */
 
 
-
+var PDFJS = {};
 var JpxImage = (function JpxImageClosure() {
   // Table E.1
   var SubbandsGainLog2 = {
@@ -5187,6 +5187,7 @@ function loadJpegStream(id, imageUrl, objs) {
   });
   img.src = imageUrl;
 }
+
 
 /***/ }),
 
